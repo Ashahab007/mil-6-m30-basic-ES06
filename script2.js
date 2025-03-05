@@ -87,5 +87,5 @@ for (const [key, value] of Object.entries(employee)) {
   /* name : Yasmin
 id : 5875
 age : 30
-department : QA */
+script2.js:86 department : QA */
 }
