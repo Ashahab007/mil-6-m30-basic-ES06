@@ -6,7 +6,7 @@ const car = {
   year: 2024,
 };
 
-// i. Object.keys() = get the key name as an array from an object
+// i. Object.keys() = get the key's name as an array from an object
 console.log(Object.keys(car)); //['carName', 'model', 'year']
 
 // ii. Object.values = get the key's value as an array from an object

@@ -45,7 +45,7 @@ const fullName2 = (fname, lname) => {
 };
 
 // let personName2 = fullName2("Ammar", "Shahab");
-console.log("with multiple line statement with return statement: ", personName); //Uncaught ReferenceError: arguements is not defined
+console.log("with multiple line statement with return statement: ", personName); //Uncaught ReferenceError: arguments is not defined
 
 // ii. Normal function takes arguments object
 function personName3(fname, lname) {
@@ -69,7 +69,7 @@ console.log(...newFruits, ...fruits); //Banana grape Apple Mango
 
 const number = [20, 25, 600, 50, 177, 150];
 console.log(Math.max(...number)); //600
-console.log(Math.min(...number)); //600
+console.log(Math.min(...number)); //20
 
 //! 4. Object & Array destructuring
 // i. Object destructuring
