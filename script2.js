@@ -51,3 +51,41 @@ webDevelopment.lang = "Django"; //change the property
 webDevelopment.styles = "css"; //added property
 
 console.log(webDevelopment); //{lang: 'Javascript', markupLang: 'HTML'}
+
+// vi. for in loop over object
+
+const shirtPrice = {
+  easy: 2000,
+  ecstasy: 1700,
+  catsEye: 2100,
+  colors: 1500,
+};
+
+console.log(shirtPrice["easy"]); //2000
+
+for (const key in shirtPrice) {
+  console.log(`key: ${key}, value: ${shirtPrice[key]}`);
+} /* 
+key: easy, value: 2000
+key: ecstasy, value: 1700
+key: catsEye, value: 2100
+key: colors, value: 1500
+*/
+
+// vii. we know for of loop is not work in object. But u can use it by Object.entries() method
+
+const employee = {
+  name: "Yasmin",
+  id: 5875,
+  age: 30,
+  department: "QA",
+};
+
+for (const [key, value] of Object.entries(employee)) {
+  //by destructuring in [key, value]
+  console.log(`${key} : ${value}`);
+  /* name : Yasmin
+id : 5875
+age : 30
+department : QA */
+}
