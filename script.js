@@ -44,8 +44,7 @@ const fullName2 = (fname, lname) => {
   return fname + " " + lname;
 };
 
-// let personName2 = fullName2("Ammar", "Shahab");
-console.log("with multiple line statement with return statement: ", personName); //Uncaught ReferenceError: arguments is not defined
+// let personName2 = fullName2("Ammar", "Shahab"); // Uncaught ReferenceError: arguments is not defined
 
 // ii. Normal function takes arguments object
 function personName3(fname, lname) {
